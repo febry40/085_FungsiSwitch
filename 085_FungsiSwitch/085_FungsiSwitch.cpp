@@ -45,7 +45,18 @@ int main()
 		cout << "3. Perkalian " << endl;
 		cout << "4. Pengurangan " << endl;
 		cout << "5. Exit" << endl;
-		cout << "Masukkan pilihan";
+		cout << "Masukkan pilihan 1/2/3/4/5 = ";
+		cin >> pilihan;
+
+		switch (pilihan)
+		{
+		case 1:
+			input();
+			cout << "Hasil Penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+			break;
+
+
+		}
 	}
 }
 
