@@ -42,6 +42,10 @@ int main()
 		cout << "MENU" << endl;
 		cout << "1. Penjumlahan " << endl;
 		cout << "2. Pembagian " << endl;
+		cout << "3. Perkalian " << endl;
+		cout << "4. Pengurangan " << endl;
+		cout << "5. Exit" << endl;
+		cout << "Masukkan pilihan";
 	}
 }
 
